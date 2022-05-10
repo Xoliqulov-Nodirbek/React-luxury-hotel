@@ -1,4 +1,5 @@
-import "./header.scss"
+import "./header.scss";
+import HeaderBurger from "../../assets/images/site-open-menu.svg"
 
 const Header = () => {
     return (
@@ -12,7 +13,7 @@ const Header = () => {
                             <li className="header__item"><a className="header__item-link" href="#">Rooms</a></li>
                             <li className="header__item"><a className="header__item-link" href="#">Contact-us</a></li>
                         </ul>
-                        <button className="header__menu"><img className="header__menu-img" src="images/site-open-menu.svg" alt="site-hamburg-btn" /></button>
+                        <button className="header__menu"><img className="header__menu-img" src={HeaderBurger} alt="site-hamburg-btn" /></button>
                     </div>
             </div>
         </header>

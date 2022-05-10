@@ -1,8 +1,14 @@
 import Header from "./components/header/header";
 import Welcome from "./components/welcome/welcome";
 import Rooms from "./components/rooms/rooms";
+import Test from "./components/exam/test";
+import Footer from "./components/footer/footer";
 
-import "./components/header/header.scss"
+import "./main.js`"
+
+// ----- Sass -----
+import "./components/header/header.scss";
+import "./sass/main.scss"
 
 function App() {
   return (
@@ -12,6 +18,8 @@ function App() {
           <Welcome />
       </div>
           <Rooms />
+          <Test />
+          <Footer />
     </>
   );
 }
