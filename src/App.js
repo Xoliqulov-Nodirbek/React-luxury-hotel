@@ -4,7 +4,7 @@ import Rooms from "./components/rooms/rooms";
 import Test from "./components/exam/test";
 import Footer from "./components/footer/footer";
 
-import "./main.js`"
+import "./main.js";
 
 // ----- Sass -----
 import "./components/header/header.scss";
